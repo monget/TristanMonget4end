@@ -44,6 +44,34 @@ a:hover {
     padding-right: 0;
 }
 
+.image-resize-mode {
+    width: 100px;
+}
+
+.col-sm-12 h2{
+    width: 60%;
+    margin: auto;
+    color: inherit !important;
+}
+
+.col-sm-12-width h2 {
+    width: 100% !important;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.h2-size {
+    font-size: 30px;
+}
+
+.col-xs-12 p{
+    width: 80%;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.4em;
+    color: inherit !important;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -302,6 +330,7 @@ a:hover {
 }
 
 .navbar-brand img {
+    height: 40px;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -677,7 +706,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
+    text-align: justify !important;
+    text-align-last: center !important;
 }
 
 .tight-width-whitespace {
@@ -701,6 +732,7 @@ p {
 
 .social {
     max-width: 400px;
+    padding: 20px 0px 40px;
     margin: auto auto auto auto;
 }
 
