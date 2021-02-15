@@ -46,6 +46,7 @@ a:hover {
 
 .image-resize-mode {
     width: 100px;
+    height: 100px;
 }
 
 .col-sm-12 h2{
@@ -330,6 +331,7 @@ a:hover {
 }
 
 .navbar-brand img {
+    width: 215px;
     height: 40px;
     max-height: 200px;
     margin: 0 5px 0 0;
