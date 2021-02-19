@@ -64,6 +64,10 @@ a:hover {
     font-size: 30px;
 }
 
+.h2-size-small {
+    font-size: 14px;
+}
+
 .col-xs-12 p{
     width: 80%;
     margin: auto;
