@@ -9,7 +9,7 @@
 	$input_504 = $_POST['input_504'];
 	$message = $_POST['message'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'tristan.monget@laposte.net'; // Email submissions are sent to this email receiver@yoursite.com
 
 	// Create email	
 	$email_subject = "Message from your website";
