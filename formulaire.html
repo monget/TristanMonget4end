@@ -18,11 +18,11 @@
     <title>Formulaire de projet - La chouette agence</title>
 </head>
 
-<body itemscope itemtype="http://schema.org/ContactPage">
+<body>
 	<!-- MAIN CONTAINER -->
 	<div class="page-container">
 		<!-- HEADER -->
-		<header class="bloc bgc-white l-bloc " id="bloc-0" itemscope itemtype="http://schema.org/WPHeader">
+		<header class="bloc bgc-white l-bloc" id="bloc-0">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
@@ -38,16 +38,14 @@
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<ol class="site-navigation nav navbar-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
-							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-								<a itemprop="item" href="index.html"><span itemprop="name">Accueil</span></a>
-								<meta itemprop="position" content = "1"/>
+						<ul class="site-navigation nav navbar-nav" itemscope itemtype="https://schema.org/SiteNavigationElement">
+							<li>
+								<a itemprop="url" href="index.html"><span itemprop="name">Accueil</span></a>
 							</li>
-							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-								<a itemprop="item" href="formulaire.html"><span itemprop="name">Contact</span></a>
-								<meta itemprop="position" content = "2"/>
+							<li>
+								<a itemprop="url" href="formulaire.html"><span itemprop="name">Contact</span></a>
 							</li>
-						</ol>
+						</ul>
 					</div>
 				</nav>
 			</div>
@@ -116,13 +114,13 @@
 		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 
 		<!-- FOOTER -->
-		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8" itemscope itemtype="http://schema.org/WPFooter">
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
 						<p class="text-center black">La chouette agence - Entreprise de web design à Lyon.</p>
 						<div class="row row-no-gutters social" itemscope itemtype="http://schema.org/Organization">
-							<link itemprop="url" href="https://monget.github.io/TristanMonget4end/index.html">
+							<link itemprop="url" href="index.html">
 							<div class="col-sm-3 text-center">
 								<a itemprop="sameAs" aria-label="logo twitter - notre twitter" title="twitter" class="twitter" href="#"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
